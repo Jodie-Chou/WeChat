@@ -1,0 +1,32 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="account">
+    <view class="title">帐号</view>
+    <view>
+      <input placeholder="用户名/邮箱/手机号" placeholder-style="color:#999;" bindinput="accountinput"/>
+    </view>
+  </view>
+  <view class="hr"></view>
+  <view class="account">
+    <view class="title">密码</view>
+    <view><input password placeholder="请输入密码" placeholder-style="color:#999;" bindblur="pwdBlur"/></view>
+    <view class="see">
+      <image src="/image/icon/see.jpg" style="width:42px;height:30px;"></image>
+    </view>
+  </view>
+  <view class="hr"></view>
+  <button class="btn" disabled="{{disabled}}" type="{{btnstate}}" bindtap="login" id="login">登录</button>
+  <view class="operate">
+    <view>
+      <navigator url="../mobile/mobile">手机快速注册</navigator>
+    </view>
+    <view>
+      <navigator url="../Company/Company">企业注册</navigator>
+    </view>
+    <view>找回密码</view>
+  </view>
+  <view class="login">
+    <view class="weichat"><image src="/image/icon/weichat.png"></image></view>
+    <view class="qq"><image src="/image/icon/qq.png"></image></view>
+  </view>
+</view>

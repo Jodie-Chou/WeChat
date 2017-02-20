@@ -1,0 +1,11 @@
+<template name="weather">
+    <block wx:for="{{future}}">
+      <view class="future-item">
+        <view>{{item.type}}</view>
+        <view>{{item.low}} / {{future[0].high}}  </view> 
+        <view>{{item.date}}</view> 
+        <view>{{item.fengxiang}}</view>
+        <view>{{item.fengli}}</view>
+      </view>
+    </block>
+</template>

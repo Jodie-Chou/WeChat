@@ -1,0 +1,18 @@
+<view class="content">
+  <view class="today">
+    <view class="temp">{{today.temp}}℃</view>
+    <view class="lowhigh">{{today.info.low}}/{{today.info.high}}</view>
+    <view class="type">{{today.info.type}}</view>
+    <view class="city">{{city}}</view>
+    <view class="week">{{today.info.date}}</view>
+    <view class="weather">{{today.info.fengxiang}} {{today.info.fengli}}</view>
+  </view>
+  <view class="hr"></view>
+  <view class="future">
+    <import src="../template/template.wxml"/>
+    <template is="weather" data="{{future}}" />
+  </view>
+  <view class="tip">
+    <view>{{today.ganmao}}</view>
+  </view>
+</view>

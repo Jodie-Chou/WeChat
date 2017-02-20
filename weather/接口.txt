@@ -1,0 +1,32 @@
+1¡¢»ñÈ¡µØÖ·Î»ÖÃ(°Ù¶È)£º
+url:'http://api.map.baidu.com/geocoder/v2/',
+data:{
+	ak:'btsVVWf0TM1zUBEbzFz6QqWF',
+	location:latiude+','+longitude,
+	output:'json'
+},
+method:'GET',//OPTIONS,GET,HEAD,POST,PUT,DELETE
+	header:{
+	'Content-Type':'appliction/json'
+}
+
+2¡¢»ñÈ¡ÌìÆø½Ó¿Ú£º
+url:"http://wthrcdn.etouch.cn/weather_mini",
+data:{
+	city:city
+}
+
+http://api.map.baidu.com/geocoder/v2/?ak=btsVVWf0TM1zUBEbzFz6QqWF&callback=renderReverse&location=' + res.latitude + ',' + res.longitude + '&output=json&pois=1', data: { },
+¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡header: { 'Content-Type': 'application/json' },
+¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡success: function(ops) {
+¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡console.log(ops.data)
+¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡}
+¡¡¡¡¡¡¡¡})
+¡¡¡¡// console.log(res)
+¡¡¡¡// that.setData({
+¡¡¡¡// hasLocation: true,
+¡¡¡¡// location: formatLocation(res.longitude, res.latitude)
+¡¡¡¡// })
+¡¡¡¡}
+})
+}

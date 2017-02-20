@@ -1,0 +1,67 @@
+.content{
+  font-family: "Microsoft YaHei","宋体";
+  font-size:14px;
+  background-size: cover;
+  width:100%;
+  height:100%;
+  background-image: url("/images/img/bg.jpg");
+  color:#fff;
+  text-align:center;
+}
+.today{
+  padding-top:70rpx;
+  height: 50%;
+}
+.today .temp{
+  font-size: 80px;
+}
+.today .lowhigh{
+  font-size:12px;
+  margin-top:20rpx;
+  margin-right:10rpx;
+}
+.today .type{
+  font-size:16px;
+  margin-top:16rpx;
+}
+
+.today .city{
+  font-size:20px;
+  margin-top:30rpx;
+}
+.today .week,.today .weather{
+  font-size:12px;
+  margin-top:30rpx;
+}
+.content .hr{
+  margin-top:20px;
+  border-top:2px solid #fff;
+  opacity: 0.2;
+  margin-bottom: 20px;
+}
+.content .future{
+  display: flex;
+  flex-direction: row;
+  padding-left: 5rpx;
+  padding-bottom: 20rpx;
+}
+
+.future-item{
+  width:165px;
+  min-height: 100%;
+  margin-left:10rpx;
+  margin-right:10rpx;
+  font-size:12px;
+  color:#ccc;
+  padding-top:10rpx;
+  padding-bottom:10rpx;
+}
+.future-item view{
+  margin-top:10px;
+}
+.tip{
+    color:#ccc;
+    padding:10rpx;
+    line-height: 20px;
+    font-size:12px;
+    }

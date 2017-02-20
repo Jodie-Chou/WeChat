@@ -1,0 +1,69 @@
+/* pages/Company/Company.wxss */
+.content{
+    width:100%;
+    height: 600px;
+    background: #f2f2f2;
+}
+.hr{
+    padding-top: 40px;
+}
+
+.item{
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    background: #fff;
+    width: 90%;
+    height: 40px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+.item input{
+    height: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+}
+.holder{
+    font-size: 14px;
+    color:#999;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+.flex input[type=password]{
+    width:300px;
+}
+.flex switch{
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.mobileinfo{
+    display: flex;
+    flex-direction: row;
+}
+.mobileinfo input{
+    width:50%;
+    border: 1px solid #ccc;
+    background: #fff;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+    margin-left: 18px;
+}
+.code{
+    border:1px solid #ccc;
+    height: 40px;
+    width:35%;
+    text-align: center;
+    background: #efeeec;
+    border-radius: 3px;
+    line-height: 40px;
+    margin:0 5% 15px 10px;
+    font-size: 15px;
+    color:#999;
+}
+.btn{
+    width:90%;
+    color:#999;
+}
